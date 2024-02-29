@@ -1,0 +1,60 @@
+@font-face {
+	font-family: "Ink Free";
+	src: local("Ink Free"), url(./font/Inkfree.ttf);
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: "Ink Free";
+	color: azure;
+}
+
+.header-paralax {
+	background-image: url(./2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	position: fixed;
+	height: 600px;
+}
+
+.header-paralax h1 {
+	text-align: center;
+	color: #fff;
+	text-shadow: 2px 3px 1px #111111;
+	font-family: "Ink Free";
+	font-weight: 900;
+	letter-spacing: 0.16em;
+	font-size: 6em;
+	padding: 210px 0;
+}
+
+main {
+	background: #5c5858da;
+	position: relative;
+	top: 600px;
+	font-family: "Raleway", sans-serif;
+	color: #111111;
+}
+
+.container {
+	padding: 0 26%;
+}
+
+.container h1 {
+	padding: 1.2em 0 0 0;
+	font-size: 3.5em;
+	color: #212121;
+}
+.container h2 {
+	padding: 0 0 0.8em 0.4em;
+	font-size: 0.8em;
+}
+.container p {
+	padding-bottom: 1em;
+	font-size: 1.6em;
+	line-height: 1.5;
+	color: #212121;
+}
